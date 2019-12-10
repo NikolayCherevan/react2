@@ -16,7 +16,7 @@ class App extends React.Component {
     this.addItem = this.addItem.bind(this);
     this.deleteItem = this.deleteItem.bind(this);
     this.setUpdate = this.setUpdate.bind(this);
-  }
+}
   deleteItem (key) {
     const filteredItems = this.state.items.filter(item => 
       item.key!==key);
@@ -50,8 +50,9 @@ class App extends React.Component {
     }
   }
   setUpdate (text, key) {
-    const items = this. state.items;
-    items.map(item => {
+    const items = this.state.items;
+    // eslint-disable-next-line
+    items.map(item  => {
       if(item.key===key) {
         item.text=text;
       }
