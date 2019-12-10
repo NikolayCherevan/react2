@@ -406,3 +406,7 @@ Error: Debug Failure. False expression.
 	at readableAddChunk (_stream_readable.js:264:11)
 	at Socket.Readable.push (_stream_readable.js:219:10)
 	at Pipe.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+[2019-12-10 18:08:55.638] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:json"}
+[2019-12-10 18:08:55.638] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/configuration-editing/dist/extension
+[2019-12-10 18:08:55.644] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:json"}
+[2019-12-10 18:08:55.644] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain
